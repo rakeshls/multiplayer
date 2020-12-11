@@ -7,7 +7,25 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDBytD3r3-kp8srYwAJIQp3qVrpf8v5S0o",
+    authDomain: "multiplayer-4924c.firebaseapp.com",
+    projectId: "multiplayer-4924c",
+    storageBucket: "multiplayer-4924c.appspot.com",
+    messagingSenderId: "169672194800",
+    appId: "1:169672194800:web:4cd4e64fe27a42d31c2035"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
